@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import Navbar from './Navbar';
-
+// Update album file
 const UpdateAlbum = (props) => {
   const getUpdateData = () => {
     const id = props.album.id;
